@@ -11,9 +11,9 @@
            "name": "http://schema.org/name",
            "serviceAgreement": "http://xmlns.com/foaf/0.1/Document",
            "confirmedAt": "http://schema.org/DateTime",
-           "clientHint": "http://schema.org/hint",
+           "clientHint": "http://schema.org/Text",
            "clientEndpoint": "http://schema.org/URL",
-           "clientSecret": "http://schema.org/secret"
+           "clientSecret": "http://schema.org/accessCode"
          }
       }
    }
