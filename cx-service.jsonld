@@ -1,0 +1,20 @@
+{
+   "@context":
+   {
+      "ServiceConfirmation":
+      {
+         "@id": "http://localhost:8080/cx-service",
+         "@type": "@id",
+         "@context": {
+           "id": "@id",
+           "type": "@type",
+           "name": "http://schema.org/name",
+           "serviceAgreement": "http://xmlns.com/foaf/0.1/Document",
+           "confirmedAt": "http://schema.org/DateTime",
+           "clientHint": "http://schema.org/Text",
+           "clientEndpoint": "http://schema.org/URL",
+           "clientSecret": "http://schema.org/accessCode"
+         }
+      }
+   }
+}
